@@ -1,0 +1,68 @@
+body {
+    padding-top: 3rem;
+    background-color: #F8F8FF;
+}
+
+h2 {
+    text-align: center;
+}
+
+#centerLayer {
+    margin-left: 30%; /* Отступ слева */
+    width: 40%; /* Ширина слоя */
+    background: #fc0; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+
+input {
+    border:1px solid #ccc;
+    width:200px;
+    padding:10px;
+    margin:5px 15px;
+    border-radius:5px;
+}
+.send {
+    width:220px;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    width: 1110px;
+    border-collapse: collapse;
+    color: #686461;
+}
+
+th {
+    border-bottom: 3px solid #B9B29F;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background: white;
+}
+
+tr:nth-child(even) {
+    background: #E8E6D1;
+}
+
+.lineexcess {
+    color: red;
+}
+
+.linenotexcess {
+    color: green;
+}
+
+tbody td {
+    background-color: #F1F1F1;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
