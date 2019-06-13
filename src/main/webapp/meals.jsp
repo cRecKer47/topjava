@@ -47,10 +47,12 @@
                 <td>${meal.description}</td>
                 <td>${meal.calories}</td>
                 <td>
-                    <a href="/edit/${film.id}">edit</a>
+                    <%--<a href="/edit/${film.id}">edit</a>--%>
+                    edit
                 </td>
                 <td>
-                    <a href="/delete/${film.id}">delete</a>
+                    <%--<a href="/delete/${film.id}">delete</a>--%>
+                    delete
                 </td>
             </tr>
         </c:if>
