@@ -18,12 +18,12 @@ import static java.util.stream.Collectors.toList;
 
 public class MealsUtil {
     public static final List<Meal> MEALS = Arrays.asList(
-            new Meal(LocalDateTime.of(2015, Month.MAY, 30, 10, 0), "Завтрак", 500, 2),
-            new Meal(LocalDateTime.of(2015, Month.MAY, 30, 13, 0), "Обед", 1000,2),
-            new Meal(LocalDateTime.of(2015, Month.MAY, 30, 20, 0), "Ужин", 500,2),
-            new Meal(LocalDateTime.of(2015, Month.MAY, 31, 10, 0), "Завтрак", 1000,4),
-            new Meal(LocalDateTime.of(2015, Month.MAY, 31, 13, 0), "Обед", 500,4),
-            new Meal(LocalDateTime.of(2015, Month.MAY, 31, 20, 0), "Ужин", 510,4)
+            new Meal(LocalDateTime.of(2015, Month.MAY, 30, 10, 0), "Завтрак user2", 500, 2),
+            new Meal(LocalDateTime.of(2015, Month.MAY, 30, 13, 0), "Обед user2", 1000,2),
+            new Meal(LocalDateTime.of(2015, Month.MAY, 30, 20, 0), "Ужин user2", 500,2),
+            new Meal(LocalDateTime.of(2015, Month.MAY, 31, 10, 0), "Завтрак user4", 1000,4),
+            new Meal(LocalDateTime.of(2015, Month.MAY, 31, 13, 0), "Обед user4", 500,4),
+            new Meal(LocalDateTime.of(2015, Month.MAY, 31, 20, 0), "Ужин user4", 510,4)
     );
 
     public static final int DEFAULT_CALORIES_PER_DAY = 2000;
