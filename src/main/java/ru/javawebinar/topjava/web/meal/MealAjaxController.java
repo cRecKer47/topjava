@@ -14,9 +14,9 @@ import java.time.LocalTime;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = MealRestController.REST_URL, produces = MediaType.APPLICATION_JSON_VALUE)
-public class MealRestController extends AbstractMealController {
-    static final String REST_URL = "/rest/profile/meals";
+@RequestMapping(value = MealAjaxController.REST_URL, produces = MediaType.APPLICATION_JSON_VALUE)
+public class MealAjaxController extends AbstractMealController {
+    static final String REST_URL = "/ajax/profile/meals";
 
     @Override
     @GetMapping("/{id}")

@@ -24,7 +24,7 @@ import static ru.javawebinar.topjava.util.MealsUtil.getWithExcess;
 
 class MealRestControllerTest extends AbstractControllerTest {
 
-    private static final String REST_URL = MealRestController.REST_URL + '/';
+    private static final String REST_URL = MealAjaxController.REST_URL + '/';
 
     @Autowired
     private MealService service;
