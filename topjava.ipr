@@ -91,7 +91,8 @@
             <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
             <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.9" />
             <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.6" />
-            <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" />
+            <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jdbc:9.0.22" />
+            <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:9.0.22" />
           </element>
         </element>
         <element id="directory" name="META-INF">
@@ -111,7 +112,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="topjava" target="11" />
+      <module name="topjava" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
@@ -160,7 +161,7 @@
       <module fileurl="file://$PROJECT_DIR$/topjava.iml" filepath="$PROJECT_DIR$/topjava.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
   </component>
   <component name="SqlDialectMappings">
@@ -773,17 +774,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.2.6/postgresql-42.2.6-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.slf4j:jul-to-slf4j:1.7.25">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.slf4j:slf4j-api:1.7.25">
